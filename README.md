@@ -57,7 +57,7 @@ Copiar código
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/SEU_USUARIO/sistema-gestao-hospitalar.git
+   git clone https://github.com/wendersonJonatha/Sistema-de-Gest-o-Hospitalar.git
 Acesse a pasta do projeto:
 
 bash
