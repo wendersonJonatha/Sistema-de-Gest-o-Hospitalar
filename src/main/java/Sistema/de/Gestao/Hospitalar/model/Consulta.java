@@ -18,7 +18,7 @@ public class Consulta {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id_Consulta;
 
-    @Temporal(TemporalType.DATE)
+
     private LocalDateTime data_Consulta;
 
     @Column(columnDefinition = "TEXT")

@@ -30,7 +30,7 @@ public class Medico {
     @Column(nullable = false, length = 50)
     private String telefone;
 
-    @OneToMany(mappedBy = "paciente", cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "medico", cascade = CascadeType.ALL)
     private List<Consulta> consultas;
 
 }
